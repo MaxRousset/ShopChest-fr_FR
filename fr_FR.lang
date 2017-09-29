@@ -1,201 +1,333 @@
-# French translation by 'HoloryTV' and 'Skymine' for version 1.10.4
-
-### Messages
-
+# Set the message when an admin shop is created at the clicked chest.
+# Usable Placeholders: %CREATION-PRICE%
 message.admin-shop-created=&c%CREATION-PRICE% &6retiré pour créer ce magasin d'admin.
+
+# Set the message when all shops of a player were removed.
+# Usable Placeholders: %AMOUNT%, %VENDOR%
 message.all-shops-removed=&6Tout les magasins de &c%VENDOR% &6on était enlevé (&c%AMOUNT%&6).
+
+# Set the generation message the player gets after entering '/shop info' if the product is a written book
+# Usable Placeholders: %GENERATION%
 message.shopInfo.book-generation=&6Génération: &e%GENERATION%
+
+# Set the message when a player joins and made a revenue while he was offline.
+# Usable Placeholders: %REVENUE%
 message.revenue-while-offline=&6Pendant que vous étiez hors ligne, vos magasins on générés un revenu de &c%REVENUE%&6.
+
+# Set the message the vendor gets when his shop is out of stock
+# Usable Placeholders: %AMOUNT%, %ITEMNAME%
 message.vendor-out-of-stock=&cVotre magasin qui vend &6%AMOUNT% x %ITEMNAME% &cest en rupture de stock.
+
+# Set the message when the argument <AMOUNT> is zero
 message.amount-is-zero=&cLa quantité doit être supérieur à 0.
 
+# Set the message when the player must click a shop to open it.
 message.click-chest-to-open-shop=&aCliquez sur un magasin dans les 15 secondes pour l'ouvrir.
+
+# Set the message when the entered buy price is below the maximum price.
+# Usable Placeholders: %MAX-PRICE%
 message.buy-price-too-high=&cLe prix d'achat doit être inférieur à %MAX-PRICE%.
+
+# Set the message when the entered sell price is below the maximum price.
+# Usable Placeholders: %MAX-PRICE%
 message.sell-price-too-high=&cLe prix de vente doit être inférieur à %MAX-PRICE%.
+
+# Set the message when the player tries to use a shop in creative mode.
 message.use-in-creative=&cVous ne pouvez pas utiliser de magasin en créatif.
+
+# Set the message when a player tries to buy something in a region/plot that denied shop use.
 message.noPermission.buy-here=&cVous n'avez pas la permission d'acheter ici.
+
+# Set the message when a player tries to sell something in a region/plot region that denied shop use.
 message.noPermission.sell-here=&cVous n'avez pas la permission de vendre ici.
+
+# Set the message when a not permitted player tries to remove an admin shop.
 message.noPermission.remove-admin=&cVous n'avez pas la permission d'enlever un magasin d'admin.
+
+# Set the message when a not permitted player tries to extend another player's shop's chest.
 message.noPermission.extend-others=&cVous n'avez pas la permission d'agrandir ce coffre.
+
+# Set the message when a not permitted player tries to extend a chest into a protected region/plot (e.g. WorldGuard/Towny).
 message.noPermission.extend-protected=&cVous n'avez pas la permission d'agrandir ce coffre ici.
 
+# Set the header of the help message the player gets after entering '/shop' or an invalid command.
+# Usable Placeholders: %COMMAND%
 message.commandDescription.header=&6==== &c/%COMMAND% &6Aide
-message.commandDescription.footer=&6==== Fin
-message.commandDescription.create-admin=&a/%COMMAND% create <amount> <buy-price> <sell-price> [normal|admin] - Créer un magasin.
-message.commandDescription.removeall=&a/%COMMAND% removeall - Enlever tout les magasins d'un joueur.
-message.commandDescription.open=&a/%COMMAND% open - Ouvrir un magasin.
-message.commandDescription.create=&a/%COMMAND% create <amount> <buy-price> <sell-price> - Créer un magasin.
-message.commandDescription.remove=&a/%COMMAND% remove - Supprimer un magasin.
-message.commandDescription.info=&a/%COMMAND% info - Informations sur un magasin.
-message.commandDescription.reload=&a/%COMMAND% reload - Recharger les magasins.
-message.commandDescription.update=&a/%COMMAND% update - Rechercher des mises à jour.
-message.commandDescription.limits=&a/%COMMAND% limits - Voir la limite de magasins.
-message.commandDescription.config=&a/%COMMAND% config - Changer les valeurs.
 
+# Set the footer of the help message the player gets after entering '/shop' or an invalid command.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.footer=&6==== Fin
+
+# Set the command description message for '/shop create' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.create-admin=&a/%COMMAND% create <amount> <buy-price> <sell-price> [normal|admin] - Créer un magasin.
+
+# Set the command description message for '/shop removeall' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.removeall=&a/%COMMAND% removeall - Enlever tout les magasins d'un joueur.
+
+# Set the command description message for '/shop open' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.open=&a/%COMMAND% open - Ouvrir un magasin.
+
+# Set the command description message for '/shop create' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.create=&a/%COMMAND% create <amount> <buy-price> <sell-price> - Créer un magasin.
+
+# Set the command description message for '/shop remove' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.remove=&a/%COMMAND% remove - Supprimer un magasin.
+
+# Set the command description message for '/shop info' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.info=&a/%COMMAND% info - Informations sur un magasin.
+
+# Set the command description message for '/shop reload' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.reload=&a/%COMMAND% reload - Recharger les magasins.
+
+# Set the command description message for '/shop update' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.update=&a/%COMMAND% update - Rechercher des mises à jour.
+
+# Set the command description message for '/shop limits' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.limits=&a/%COMMAND% limits - Voir la limite de magasins.
+
+# Set the command description message for '/shop config' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.config=&a/%COMMAND% config - Changer les valeurs.
 
 # Definir un message quand un magasin est crée.
 message.shop-created=&6Magasin crée.
+
 # Définir un message quand un coffre est déja un magasin.
 message.chest-already-shop=&cCe coffre est déja un magasin.
+
 # Définir un message quand il y a un bloc devant le coffre.
 message.chest-blocked=&cIl ne doit pas y avoir de bloc devant le coffre.
+
 # Définir un message quand il y a un bloc au dessus d'un double coffre.
 message.double-chest-blocked=&cIl ne doit pas y avoir de bloc au dessus du coffre.
+
 # Définir un message quand un magasin est supprimé.
 message.shop-removed=&6Magasin supprimé.
+
 # Définir un message si le coffre cliqué n'est pas un magasin.
 message.chest-no-shop=&cLe coffre n'est pas un magasin.
+
 # Definir un message quand un joueur n'a pas assez d'argent pour créer un magasin.
 # Regex utilisables: %CREATION-PRICE%
 message.shop-create-not-enough-money=&cPas assez d'argent. Vous avez besoin de &6%CREATION-PRICE% &cpour faire un magasin.
+
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le vendeur.
 # Regex utilisables: %VENDOR%
 message.shopInfo.vendor=&6Vendeur: &e%VENDOR%
+
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le produit vendu.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%
 message.shopInfo.product=&6Produit: &e%AMOUNT% x %ITEMNAME%
+
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le stock vendu.
 # Regex utilisables=%AMOUNT%
 message.shopInfo.stock=&6En Stock: &e%STOCK%
+
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur l'enchantement du produit vendu.
 # Regex utilisables: %ENCHANTMENT%
 message.shopInfo.enchantments=&6Enchantement: &e%ENCHANTMENT%
+
 # Définir le message qu'obtiendra le joueur si le produit vendu est une potion.
 # Regex utilisables: %POTION-EFFECT%
 message.shopInfo.potion-effect=&6Effet de potion: &e%POTION-EFFECT%
+
 # Définir le message qu'obtiendra le joueur si le produit vendu est un disque.
 # Regex utilisables: %MUSIC-TITLE%
 message.shopInfo.music-disc-title=&6Titre du disque: &e%MUSIC-TITLE%
+
 # Définir le message obtenu si l'objet vendu est une flèche sans effet.
 message.shopInfo.none=&7Aucun effet
+
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le prix du produit vendu.
 # Regex utilisables: %BUY-PRICE%, %SELL-PRICE%
 message.shopInfo.price=&6Prix d'achat &e%BUY-PRICE%&6 Prix de vente &e%SELL-PRICE%
+
 # Si le prix d'achat ou de vente est désactivé, ce message sera affiché à la place du message au dessus.
 message.shopInfo.disabled=&7Desactivé
+
 # Définir le message qu'obtiendra le joueur en fonction du type de magasin.
 # ... quand le shop est normal.
 message.shopInfo.is-normal=&6Type: &eNormal
+
 # ... quand le shop est un shop admin.
 message.shopInfo.is-admin=&6Type: &eAdmin
+
 # Si la potion a l'effet prolongée, la variable %EXTENDED% sera remplacée.
 # Sinon, la variable sera vide.
 message.shopInfo.extended=(Prolongée)
+
 # Définir le message qu'obtiendra le joueur en essayant de créer un magasin avec un prix d'achat et de vente égal à 0.
 message.buy-and-sell-disabled=&cVous ne pouvez pas créer un magasin avec un prix d'achat et de vente égal à 0.
+
 # Définir le message qu'obtiendra le joueur s'il achète un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %BUY-PRICE%, %VENDOR%
 message.buy-success=&aVous avez acheté &6%AMOUNT% x %ITEMNAME%&a pour &6%BUY-PRICE%&a à &6%VENDOR%&a.
+
 # Définir le message qu'obtiendra le joueur s'il achète un produit d'un admin shop.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %BUY-PRICE%
 message.buy-success-admin=&aVous avez acheté &6%AMOUNT% x %ITEMNAME%&a pour &6%BUY-PRICE%&a.
+
 # Définir le message qu'obtiendra le joueur s'il vend un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %SELL-PRICE%, %VENDOR%
 message.sell-success=&aVous avez vendu &6%AMOUNT% x %ITEMNAME%&a à &6%SELL-PRICE%&a pour &6%VENDOR%&a.
+
 # Définir le message qu'obtiendra le joueur s'il vend un produit dans un admin shop.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %SELL-PRICE%
 message.sell-success-admin=&aVous avez vendu &6%AMOUNT% x %ITEMNAME%&a pour &6%SELL-PRICE%&a.
+
 # Définir le message qu'obtiendra un joueur s'il vous achète un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %BUY-PRICE%, %PLAYER%
 message.someone-bought=&6%PLAYER% &aa acheté &6%AMOUNT% x %ITEMNAME%&a pour &6%BUY-PRICE%&a dans votre magasin.
+
 # Définir le message qu'obtiendra un joueur s'il vous vend un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %SELL-PRICE%, %PLAYER%
 message.someone-sold=&6%PLAYER% &avous a vendu &6%AMOUNT% x %ITEMNAME%&a pour &6%SELL-PRICE%&a.
+
 # Définir le message qu'obtiendra le joueur s'il essaye d'acheter quelque chose alors que son inventaire est plein.
 message.not-enough-inventory-space=&cPas assez de place dans votre inventaire.
+
 # Définir le message qu'obtiendra le joueur s'il essaye de vendre quelque chose alors que le coffre est plein.
 message.chest-not-enough-inventory-space=&cLe magasin est plein.
+
 # Définir le message si le joueur n'a pas assez d'argent pour acheter quelque chose.
 message.not-enough-money=&cPas assez d'argent.
+
 # Définir le message si le joueur n'a pas assez d'items à vendre.
 message.not-enough-items=&cPas assez d'items.
+
 # Définir le message si le vendeur n'a pas assez d'argent pour acheter les objets d'un joueur.
 message.vendor-not-enough-money=&cLe vendeur n'a pas assez d'argent.
+
 # Définir le message si le magasin est en rupture de stock.
 message.out-of-stock=&cMagasin en rupture de stock.
+
 # Définir le message si une erreur s'est produite.
 # Regex utilisables: %ERROR%
 message.error-occurred=&cUne erreur s'est produite: %ERROR%
+
 # Définir le message si les arguments <Quantité> and <Prix> de '/shop create' ne sont pas des nombres.
 message.amount-and-price-not-number=&cLa quantité et les prix doivent être des nombres.
+
 # Définir le message quand la config "allow-decimals-in-prices" est égal à false
 # et que le joueur tente d'écrire un prix avec décimal.
 message.prices-contain-decimals=&cLes prix doivent être des nombres entiers (pas de décimales).
+
 # Définir le message si le joueur n'a pas d'item dans sa main.
 message.no-item-in-hand=&cPas d'objet dans la main.
+
 # Définir le message quand un joueur doit cliquretiréer sur un coffre pour créer un magasin.
 message.click-chest-to-create-shop=&aCliquer sur un coffre pour créer le magasin.
-Définir le message quand un joueur doit cliquer sur un coffre pour supprimer un magasin.
+
+# Définir le message quand un joueur doit cliquer sur un coffre pour supprimer un magasin.
 message.click-chest-to-remove-shop=&aCliquer sur un coffre pour supprimer un magasin.
+
 # Définir le message quand un joueur clique un magasin pour avoir des informations.
 message.click-chest-for-info=&aCliquer sur un magasin pour avoir des informations.
+
 # Définir le message quand un joueur ouvre un magasin.
 # Regex utilisables: %VENDOR%
 message.opened-shop=&aVous avez ouvert le magasin de %VENDOR%.
+
 # Définir le message quand un joueur essai de détruire un magasin.
 message.cannot-break-shop=&cVous ne pouvez pas détruire un magasin.
+
 # Définir le message quand un joueur essai de vendre un item endommagé.
 message.cannot-sell-broken-item=&cVous ne pouvez pas vendre un item endommagé.
 # Définir un message si le prix de vente sélectionné est plus bas que le prix minimum.
 # Regex utilisables: %MIN-PRICE%
 message.sell-price-too-low=&cLe prix de vente doit être supérieur a %MIN-PRICE%.
+
 # Définir un message si le prix d'achat sélectionné est plus bas que le prix minimum.
 # Regex utilisables: %MIN-PRICE%
 message.buy-price-too-low=&cLe prix d'achat doit être supérieur a %MIN-PRICE%.
+
 # Définir le message si l'achat est désactivé dans ce magasin.
 message.buying-disabled=&cL'achat est desactivé dans ce magasin.
+
 # Definir le message si la vente est désactivé dans ce magasin.
 message.selling-disabled=&cLa vente est desactivée dans ce magasin.
+
 # Définir le message quand le rechargement est terminé.
 # Regex utilisables: %AMOUNT% (Amount of shops) 
 message.reloaded-shops=%AMOUNT% magasin/s ont ete rechargé.
+
 # Définir un message quand un joueur a atteint son nombre maximum de magasin.
 # Regex utilisables: %LIMIT%
 message.shop-limit-reached=&cVotre limite de &6%LIMIT% &cmagasin/s a été atteinte.
+
 # Montre au joueur le nombre de magasin qu'il possède par rapport à sa limite.
 # Regex utilisables: %LIMIT%, %AMOUNT% (Amount of shops)
 message.occupied-shop-slots=&6Vous avez &c%AMOUNT%/%LIMIT% &6magasin/s.
+
 # Définir un message quand un joueur essaye de vendre un item blacklist.
 message.cannot-sell-item=&cVous ne pouvez pas créer un magasin avec cet item.
+
 # Définir un message quand une mise à jour est disponible.
 # Regex utilisables: %VERSION%
 message.update.update-available=&6&lVersion &c%VERSION% &6de &cShopChest &6est disponible ici.
+
 # Définir le message à obtenir en survolant le message mise à jour disponible.
 message.update.click-to-download=Cliquer pour télécharger.
+
 # Définir le message quand aucune mise à jour n'est disponible.
 message.update.no-update=&6&lPas de mise à jour disponible.
+
 # Définir le message pour la recherche de mise à jour.
 message.update.checking=&6&lRecherche de mise à jour.
+
 # Définir le message si une erreur est survenue pendant la recherche de mise à jour.
 message.update.error=&c&lErreur lors de la recherche de mise à jour.
+
 # Définir le message quand un joueur non autorisé essaye de créer un magasin.
 message.noPermission.create=&cVous n'avez pas la permission de créer un magasin.
+
 # Définir le message quand un joueur non autorisé essaye de créer un magasin admin.
 message.noPermission.create-admin=&cVous n'avez pas la permission de créer un magasin admin.
+
 # Définir le message quand un joueur essaye de créer un magasin sur un coffre protégé.
 message.noPermission.create-protected=&cVous n'avez pas la permission de créer un magasin sur un coffre protégé.
+
 # Définir un message quand un joueur non autorisé essaye d'ouvrir le magasin de quelqu'un.
 message.noPermission.open-others=&cVous n'avez pas la permission d'ouvrir ce magasin.
+
 # Définir un message quand un joueur non autorisé essaye d'acheter quelque chose.
 message.noPermission.buy=&cVous n'avez pas la permission d'acheter quelque chose.
+
 # Définir un message quand un joueur non autorisé essaye de vendre quelque chose.
 message.noPermission.sell=&cVous n'avez pas la permission de vendre.
+
 # Définir un message quand un joueur non autorisé essaye de supprimer un magasin.
 message.noPermission.remove-others=&cVous n'avez pas la permission de supprimer ce magasin.
+
 # Définir un message quand un joueur non autorisé essaye de recharger un magasin.
 message.noPermission.reload=&cVous n'avez pas la permission de recharger ce magasin.
+
 # Définir un message quand un joueur non autorisé essaye de chercher une mise à jour.
 message.noPermission.update=&cVous n'avez pas la permission de rechercher une mise à jour.
+
 # Définir un message quand un joueur non autorisé essaye de voir la limite d'un magasin.
 message.noPermission.limits=&cVous n'avez pas la permission de voir la limite.
+
 # Définir un message quand un joueur non autorisé essaye de changer les valeurs.
 message.noPermission.config=&cVous n'avez pas la permission de changer les valeurs.
+
 # Définir le message qu'obtient un joueur après avoir changé des paramètres.
 # Regex utilisables: %PROPERTY%, %VALUE%
 message.config.set=&6Changement de &a%PROPERTY% &6en &a%VALUE%&6.
+
 # Définir le message qu'obtient un joueur après avoir ajouté une valeur à une liste.
 # Regex utilisables: %PROPERTY%, %VALUE%
 message.config.added=&6Ajout de &a%VALUE% &6à &a%PROPERTY%&6.
+
 # Définir le message qu'obtient un joueur après avoir retiré une valeur à une liste.
 # Regex utilisables: %PROPERTY%, %VALUE%
 message.config.removed=&a%VALUE% retiré &6fde &a%PROPERTY%&6.
@@ -356,6 +488,15 @@ enchantment.thorns=Épines
 enchantment.untouching=Toucher de soie
 enchantment.waterWalker=Agilité aquatique
 enchantment.waterWorker=Affinité aquatique
+enchantment.binding_curse=Lien éternel
+enchantment.vanishing_curse=Disparition
+enchantment.sweeping=Affilage
+
+# If the product is a written book, this will be displayed instead of %GENERATION%
+book.generation.0=Original
+book.generation.1=Copie d'original
+book.generation.2=Copie d'une copie
+book.generation.3=En lambeaux
 
 # If the product is a spawn egg, this will be displayed after 'item.monsterPlacer.name'
 entity.Creeper.name=Creeper
@@ -391,13 +532,21 @@ entity.Wolf.name=Loup
 entity.Ozelot.name=Ocelot
 entity.Cat.name=Chat
 entity.Bat.name=Chauve-souris
-entity.EntityHorse.name=Cheval
 entity.Donkey.name=Âne
 entity.Mule.name=Mule
 entity.SkeletonHorse.name=Cheval-squelette
 entity.ZombieHorse.name=Cheval-zombie
 entity.Rabbit.name=Lapin
 entity.KillerBunny.name=Lapin tueur
+entity.Horse.name=Cheval
+entity.ZombieVillager.name=Zombie-villageois
+entity.ElderGuardian.name=Grand Gardien
+entity.EvocationIllager.name=Evocateur
+entity.Vex.name=Vex
+entity.VindicationIllager.name=Vindicator
+entity.Llama.name=Lama
+entity.Parrot.name=Perroquet
+entity.IllusionIllager.name=Illusionniste
 
 # Item names that will be displayed in the hologram
 item.apple.name=Pomme
@@ -1293,7 +1442,24 @@ item.speckledMelon.name=Pastèque scintillante
 item.spectral_arrow.name=Flèche spectrale
 item.spiderEye.name=Oeil d'araignée
 item.stick.name=Bâton
-item.string.name=Ficelle
+item.string.name=Ficelleitem.fireworksCharge.black=Noir
+item.fireworksCharge.blue=Bleu
+item.fireworksCharge.brown=Marron
+item.fireworksCharge.customColor=Personnalisée
+item.fireworksCharge.cyan=Cyan
+item.fireworksCharge.fadeTo=S'estompe sur du
+item.fireworksCharge.flicker=Étincelles
+item.fireworksCharge.gray=Gris
+item.fireworksCharge.green=Vert
+item.fireworksCharge.lightBlue=Bleu clair
+item.fireworksCharge.lime=Vert clair
+item.fireworksCharge.magenta=Magenta
+item.fireworksCharge.name=Étoile de feu d'artifice
+item.fireworksCharge.orange=Orange
+item.fireworksCharge.pink=Rose
+item.fireworksCharge.purple=Violet
+item.fireworksCharge.red=Rouge
+item.fireworksCharge.silver=Gris clair
 item.sugar.name=Sucre
 item.sulphur.name=Poudre à canon
 item.swordDiamond.name=Épée en diamant
@@ -1307,6 +1473,26 @@ item.wheat.name=Blé
 item.writingBook.name=Livre et plume
 item.writtenBook.name=Livre écrit
 item.yellowDust.name=Poudre lumineuse
+item.totem.name=Totem d'immortalité
+item.shulkerShell.name=Carapace de Shulker
+item.ironNugget.name=Pépite de fer
+item.knowledgeBook.name=Livre des connaissances
+item.bed.white.name=Lit blanc
+item.bed.orange.name=Lit orange
+item.bed.magenta.name=Lit magenta
+item.bed.lightBlue.name=Lit bleu clair
+item.bed.yellow.name=Lit jaune
+item.bed.lime.name=Lit vert clair
+item.bed.pink.name=Lit rose
+item.bed.gray.name=Lit gris
+item.bed.silver.name=Lit gris clair
+item.bed.cyan.name=Lit cyan
+item.bed.purple.name=Lit violet
+item.bed.blue.name=Lit bleu
+item.bed.brown.name=Lit marron
+item.bed.green.name=Lit vert
+item.bed.red.name=Lit rouge
+item.bed.black.name=Lit noir
 
 # Block names that will be displayed in the hologram
 tile.acaciaFence.name=Barrière en bois d'acacia
@@ -1669,3 +1855,68 @@ tile.woolCarpet.silver.name=Tapis gris clair
 tile.woolCarpet.white.name=Tapis blanc
 tile.woolCarpet.yellow.name=Tapis jaune
 tile.workbench.name=Établi
+tile.observer.name=Observateur
+tile.shulkerBoxWhite.name=Boîte de Shulker blanche
+tile.shulkerBoxOrange.name=Boîte de Shulker orange
+tile.shulkerBoxMagenta.name=Boîte de Shulker magenta
+tile.shulkerBoxLightBlue.name=Boîte de Shulker bleu
+tile.shulkerBoxYellow.name=Boîte de Shulker jaune
+tile.shulkerBoxLime.name=Boîte de Shulker vert clair
+tile.shulkerBoxPink.name=Boîte de Shulker rose
+tile.shulkerBoxGray.name=Boîte de Shulker gris
+tile.shulkerBoxSilver.name=Boîte de Shulker gris clair
+tile.shulkerBoxCyan.name=Boîte de Shulker cyan
+tile.shulkerBoxPurple.name=Boîte de Shulker violet
+tile.shulkerBoxBlue.name=Boîte de Shulker bleu
+tile.shulkerBoxBrown.name=Boîte de Shulker marron
+tile.shulkerBoxGreen.name=Boîte de Shulker vert
+tile.shulkerBoxRed.name=Boîte de Shulker rouge
+tile.shulkerBoxBlack.name=Boîte de Shulker noir
+tile.concrete.white.name=Béton blanc
+tile.concrete.orange.name=Béton orange
+tile.concrete.magenta.name=Béton magenta
+tile.concrete.lightBlue.name=Béton bleu clair
+tile.concrete.yellow.name=Béton jaune
+tile.concrete.lime.name=Béton vert clair
+tile.concrete.pink.name=Béton rose
+tile.concrete.gray.name=Béton gris
+tile.concrete.silver.name=Béton gris claire
+tile.concrete.cyan.name=Béton cyan
+tile.concrete.purple.name=Béton violet
+tile.concrete.blue.name=Béton bleu
+tile.concrete.brown.name=Béton marron
+tile.concrete.green.name=Béton vert
+tile.concrete.red.name=Béton rouge
+tile.concrete.black.name=Béton noir
+tile.concretePowder.white.name=Béton blanc en poudre
+tile.concretePowder.orange.name=Béton orange en poudre
+tile.concretePowder.magenta.name=Béton magenta en poudre
+tile.concretePowder.lightBlue.name=Béton bleu clair en poudre
+tile.concretePowder.yellow.name=Béton jaune en poudre
+tile.concretePowder.lime.name=Béton vert clair en poudre
+tile.concretePowder.pink.name=Béton rose en poudre
+tile.concretePowder.gray.name=Béton gris en poudre
+tile.concretePowder.silver.name=Béton gris clair en poudre
+tile.concretePowder.cyan.name=Béton cyan en poudre
+tile.concretePowder.purple.name=Béton violet en poudre
+tile.concretePowder.blue.name=Béton bleu en poudre
+tile.concretePowder.brown.name=Béton marron en poudre
+tile.concretePowder.green.name=Béton vert en poudre
+tile.concretePowder.red.name=Béton rouge en poudre
+tile.concretePowder.black.name=Béton noir en poudre
+tile.glazedTerracottaWhite.name=Terre cuite émaillé blanche
+tile.glazedTerracottaOrange.name=Terre cuite émaillé orange
+tile.glazedTerracottaMagenta.name=Terre cuite émaillé magenta
+tile.glazedTerracottaLightBlue.name=Terre cuite émaillé bleu clair
+tile.glazedTerracottaYellow.name=Terre cuite émaillé jaune
+tile.glazedTerracottaLime.name=Terre cuite émaillé vert clair
+tile.glazedTerracottaPink.name=Terre cuite émaillé rose
+tile.glazedTerracottaGray.name=Terre cuite émaillé gris
+tile.glazedTerracottaSilver.name=Terre cuite émaillé gris clair
+tile.glazedTerracottaCyan.name=Terre cuite émaillé cyan
+tile.glazedTerracottaPurple.name=Terre cuite émaillé violette
+tile.glazedTerracottaBlue.name=Terre cuite émaillé bleu
+tile.glazedTerracottaBrown.name=Terre cuite émaillé marron
+tile.glazedTerracottaGreen.name=Terre cuite émaillé verte
+tile.glazedTerracottaRed.name=Terre cuite émaillé rouge
+tile.glazedTerracottaBlack.name=Terre cuite émaillé noir
