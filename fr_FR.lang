@@ -168,18 +168,6 @@ message.update.no-update=&6&lPas de mise à jour disponible.
 message.update.checking=&6&lRecherche de mise à jour.
 # Définir le message si une erreur est survenue pendant la recherche de mise à jour.
 message.update.error=&c&lErreur lors de la recherche de mise à jour.
-# Définir le texte dans la première rangée de l'holograme.
-# Regex utilisables: %ITEMNAME%, %AMOUNT%
-message.hologram.format=%AMOUNT% * %ITEMNAME%
-# Définir le texte dans la deuxième rangée de l'holograme quand le joueur peut acheter et vendre.
-# Regex utilisables: %BUY-PRICE%, %SELL-PRICE%
-message.hologram.buy-and-sell=Acheter %BUY-PRICE% | %SELL-PRICE% Vendre
-# Définir le message dans la deuxième rangée de l'holograme quand le joueur peut seulement acheter.
-# Regex utilisables: %BUY-PRICE%
-message.hologram.only-buy=Acheter %BUY-PRICE%
-# Définir le message dans la deuxième rangée de l'holograme quand le joueur peut seulement vendre.
-# Regex utilisables: %SELL-PRICE%
-message.hologram.only-sell=Vendre %SELL-PRICE%
 # Définir le message quand un joueur non autorisé essaye de créer un magasin.
 message.noPermission.create=&cVous n'avez pas la permission de créer un magasin.
 # Définir le message quand un joueur non autorisé essaye de créer un magasin admin.
