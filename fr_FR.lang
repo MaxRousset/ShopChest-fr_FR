@@ -1442,7 +1442,8 @@ item.speckledMelon.name=Pastèque scintillante
 item.spectral_arrow.name=Flèche spectrale
 item.spiderEye.name=Oeil d'araignée
 item.stick.name=Bâton
-item.string.name=Ficelleitem.fireworksCharge.black=Noir
+item.string.name=Ficelle
+item.fireworksCharge.black=Noir
 item.fireworksCharge.blue=Bleu
 item.fireworksCharge.brown=Marron
 item.fireworksCharge.customColor=Personnalisée
