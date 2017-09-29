@@ -1,278 +1,218 @@
 # French translation by 'HoloryTV' and 'Skymine' for version 1.10.4
 
+### Messages
+
+message.admin-shop-created=&c%CREATION-PRICE% &6retiré pour créer ce magasin d'admin.
+message.all-shops-removed=&6Tout les magasins de &c%VENDOR% &6on était enlevé (&c%AMOUNT%&6).
+message.shopInfo.book-generation=&6Génération: &e%GENERATION%
+message.revenue-while-offline=&6Pendant que vous étiez hors ligne, vos magasins on générés un revenu de &c%REVENUE%&6.
+message.vendor-out-of-stock=&cVotre magasin qui vend &6%AMOUNT% x %ITEMNAME% &cest en rupture de stock.
+message.amount-is-zero=&cLa quantité doit être supérieur à 0.
+
+message.click-chest-to-open-shop=&aCliquez sur un magasin dans les 15 secondes pour l'ouvrir.
+message.buy-price-too-high=&cLe prix d'achat doit être inferieur à %MAX-PRICE%.
+message.sell-price-too-high=&cLe prix de vente doit être inferieur à %MAX-PRICE%.
+message.use-in-creative=&cVous ne pouvez pas utilisé de magasin en créatif.
+message.noPermission.buy-here=&cVous n'avez pas la permission d'acheter ici.
+message.noPermission.sell-here=&cVous n'avez pas la permission de vendre ici.
+message.noPermission.remove-admin=&cVous n'avez pas la permission d'enlever un magasin d'admin.
+message.noPermission.extend-others=&cVous n'avez pas la permission d'etendre ce coffre.
+message.noPermission.extend-protected=&cVous n'avez pas la permission d'etendre ce coffre ici.
+
+message.commandDescription.header=&6==== &c/%COMMAND% &6Aide
+message.commandDescription.footer=&6==== Fin
+message.commandDescription.create-admin=&a/%COMMAND% create <amount> <buy-price> <sell-price> [normal|admin] - Créer un magasin.
+message.commandDescription.removeall=&a/%COMMAND% removeall - Enlever tout les magasins d un joueur.
+message.commandDescription.open=&a/%COMMAND% open - Ouvrir un magasin.
+message.commandDescription.create=&a/%COMMAND% create <amount> <buy-price> <sell-price> - Créer un magasin.
+message.commandDescription.remove=&a/%COMMAND% remove - Supprimer un magasin.
+message.commandDescription.info=&a/%COMMAND% info - Informations sur un magasin.
+message.commandDescription.reload=&a/%COMMAND% reload - Recharger les magasins.
+message.commandDescription.update=&a/%COMMAND% update - Rechercher des mises à jour.
+message.commandDescription.limits=&a/%COMMAND% limits - Voir la limite de magasin.
+message.commandDescription.config=&a/%COMMAND% config - Changer les valeurs.
+
+
 # Definir un message quand un magasin est crée.
 message.shop-created=&6Magasin crée.
-
 # Définir un message quand un coffre est déja un magasin.
 message.chest-already-shop=&cCe coffre est déja un magasin.
-
 # Définir un message quand il y a un bloc devant le coffre.
 message.chest-blocked=&cIl ne doit pas y avoir de bloc devant le coffre.
-
 # Définir un message quand il y a un bloc au dessus d'un double coffre.
 message.double-chest-blocked=&cIl ne doit pas y avoir de bloc au dessus du coffre.
-
 # Définir un message quand un magasin est supprimé.
 message.shop-removed=&6Magasin supprimé.
-
 # Définir un message si le coffre cliqué n'est pas un magasin.
 message.chest-no-shop=&cLe coffre n'est pas un magasin.
-
 # Definir un message quand un joueur n'a pas assez d'argent pour créer un magasin.
 # Regex utilisables: %CREATION-PRICE%
 message.shop-create-not-enough-money=&cPas assez d'argent. Vous avez besoin de &6%CREATION-PRICE% &cpour faire un magasin.
-
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le vendeur.
 # Regex utilisables: %VENDOR%
 message.shopInfo.vendor=&6Vendeur: &e%VENDOR%
-
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le produit vendu.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%
 message.shopInfo.product=&6Produit: &e%AMOUNT% x %ITEMNAME%
-
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le stock vendu.
 # Regex utilisables=%AMOUNT%
 message.shopInfo.stock=&6En Stock: &e%STOCK%
-
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur l'enchantement du produit vendu.
 # Regex utilisables: %ENCHANTMENT%
 message.shopInfo.enchantments=&6Enchantement: &e%ENCHANTMENT%
-
 # Définir le message qu'obtiendra le joueur si le produit vendu est une potion.
 # Regex utilisables: %POTION-EFFECT%
 message.shopInfo.potion-effect=&6Effet de potion: &e%POTION-EFFECT%
-
 # Définir le message qu'obtiendra le joueur si le produit vendu est un disque.
 # Regex utilisables: %MUSIC-TITLE%
 message.shopInfo.music-disc-title=&6Titre du disque: &e%MUSIC-TITLE%
-
 # Définir le message obtenu si l'objet vendu est une flèche sans effet.
 message.shopInfo.none=&7Aucun effet
-
 # Définir le message qu'obtiendra le joueur pour avoir des informations sur le prix du produit vendu.
 # Regex utilisables: %BUY-PRICE%, %SELL-PRICE%
 message.shopInfo.price=&6Prix d'achat &e%BUY-PRICE%&6 Prix de vente &e%SELL-PRICE%
-
 # Si le prix d'achat ou de vente est désactivé, ce message sera affiché à la place du message au dessus.
 message.shopInfo.disabled=&7Desactivé
-
 # Définir le message qu'obtiendra le joueur en fonction du type de magasin.
 # ... quand le shop est normal.
 message.shopInfo.is-normal=&6Type: &eNormal
-
 # ... quand le shop est un shop admin.
 message.shopInfo.is-admin=&6Type: &eAdmin
-
 # Si la potion a l'effet prolongée, la variable %EXTENDED% sera remplacée.
 # Sinon, la variable sera vide.
 message.shopInfo.extended=(Prolongée)
-
 # Définir le message qu'obtiendra le joueur en essayant de créer un magasin avec un prix d'achat et de vente égal à 0.
 message.buy-and-sell-disabled=&cVous ne pouvez pas créer un magasin avec un prix d'achat et de vente égal à 0.
-
 # Définir le message qu'obtiendra le joueur s'il achète un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %BUY-PRICE%, %VENDOR%
 message.buy-success=&aVous avez acheté &6%AMOUNT% x %ITEMNAME%&a pour &6%BUY-PRICE%&a à &6%VENDOR%&a.
-
 # Définir le message qu'obtiendra le joueur s'il achète un produit d'un admin shop.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %BUY-PRICE%
 message.buy-success-admin=&aVous avez acheté &6%AMOUNT% x %ITEMNAME%&a pour &6%BUY-PRICE%&a.
-
 # Définir le message qu'obtiendra le joueur s'il vend un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %SELL-PRICE%, %VENDOR%
 message.sell-success=&aVous avez vendu &6%AMOUNT% x %ITEMNAME%&a à &6%SELL-PRICE%&a pour &6%VENDOR%&a.
-
 # Définir le message qu'obtiendra le joueur s'il vend un produit dans un admin shop.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %SELL-PRICE%
 message.sell-success-admin=&aVous avez vendu &6%AMOUNT% x %ITEMNAME%&a pour &6%SELL-PRICE%&a.
-
 # Définir le message qu'obtiendra un joueur s'il vous achète un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %BUY-PRICE%, %PLAYER%
 message.someone-bought=&6%PLAYER% &aa acheté &6%AMOUNT% x %ITEMNAME%&a pour &6%BUY-PRICE%&a dans votre magasin.
-
 # Définir le message qu'obtiendra un joueur s'il vous vend un produit.
 # Regex utilisables: %AMOUNT%, %ITEMNAME%, %SELL-PRICE%, %PLAYER%
 message.someone-sold=&6%PLAYER% &avous a vendu &6%AMOUNT% x %ITEMNAME%&a pour &6%SELL-PRICE%&a.
-
 # Définir le message qu'obtiendra le joueur s'il essaye d'acheter quelque chose alors que son inventaire est plein.
 message.not-enough-inventory-space=&cPas assez de place dans votre inventaire.
-
 # Définir le message qu'obtiendra le joueur s'il essaye de vendre quelque chose alors que le coffre est plein.
 message.chest-not-enough-inventory-space=&cLe magasin est plein.
-
 # Définir le message si le joueur n'a pas assez d'argent pour acheter quelque chose.
 message.not-enough-money=&cPas assez d'argent.
-
 # Définir le message si le joueur n'a pas assez d'items à vendre.
 message.not-enough-items=&cPas assez d'items.
-
 # Définir le message si le vendeur n'a pas assez d'argent pour acheter les objets d'un joueur.
 message.vendor-not-enough-money=&cLe vendeur n'a pas assez d'argent.
-
 # Définir le message si le magasin est en rupture de stock.
 message.out-of-stock=&cMagasin en rupture de stock.
-
 # Définir le message si une erreur s'est produite.
 # Regex utilisables: %ERROR%
 message.error-occurred=&cUne erreur s'est produite: %ERROR%
-
 # Définir le message si les arguments <Quantité> and <Prix> de '/shop create' ne sont pas des nombres.
 message.amount-and-price-not-number=&cLa quantité et les prix doivent être des nombres.
-
 # Définir le message quand la config "allow-decimals-in-prices" est égal à false
 # et que le joueur tente d'écrire un prix avec décimal.
 message.prices-contain-decimals=&cLes prix doivent être des nombres entiers (pas de décimales).
-
 # Définir le message si le joueur n'a pas d'item dans sa main.
 message.no-item-in-hand=&cPas d'objet dans la main.
-
-# Définir le message quand un joueur doit cliquer sur un coffre pour créer un magasin.
+# Définir le message quand un joueur doit cliquretiréer sur un coffre pour créer un magasin.
 message.click-chest-to-create-shop=&aCliquer sur un coffre pour créer le magasin.
-
 Définir le message quand un joueur doit cliquer sur un coffre pour supprimer un magasin.
 message.click-chest-to-remove-shop=&aCliquer sur un coffre pour supprimer un magasin.
-
 # Définir le message quand un joueur clique un magasin pour avoir des informations.
 message.click-chest-for-info=&aCliquer sur un magasin pour avoir des informations.
-
 # Définir le message quand un joueur ouvre un magasin.
 # Regex utilisables: %VENDOR%
 message.opened-shop=&aVous avez ouvert le magasin de %VENDOR%.
-
 # Définir le message quand un joueur essai de détruire un magasin.
 message.cannot-break-shop=&cVous ne pouvez pas détruire un magasin.
-
 # Définir le message quand un joueur essai de vendre un item endommagé.
 message.cannot-sell-broken-item=&cVous ne pouvez pas vendre un item endommagé.
-
 # Définir un message si le prix de vente sélectionné est plus bas que le prix minimum.
 # Regex utilisables: %MIN-PRICE%
 message.sell-price-too-low=&cLe prix de vente doit être supérieur a %MIN-PRICE%.
-
 # Définir un message si le prix d'achat sélectionné est plus bas que le prix minimum.
 # Regex utilisables: %MIN-PRICE%
 message.buy-price-too-low=&cLe prix d'achat doit être supérieur a %MIN-PRICE%.
-
 # Définir le message si l'achat est désactivé dans ce magasin.
 message.buying-disabled=&cL'achat est desactivé dans ce magasin.
-
 # Definir le message si la vente est désactivé dans ce magasin.
 message.selling-disabled=&cLa vente est desactivée dans ce magasin.
-
 # Définir le message quand le rechargement est terminé.
 # Regex utilisables: %AMOUNT% (Amount of shops) 
 message.reloaded-shops=%AMOUNT% magasin/s ont ete rechargé.
-
 # Définir un message quand un joueur a atteint son nombre maximum de magasin.
 # Regex utilisables: %LIMIT%
 message.shop-limit-reached=&cVotre limite de &6%LIMIT% &cmagasin/s a été atteinte.
-
 # Montre au joueur le nombre de magasin qu'il possède par rapport à sa limite.
 # Regex utilisables: %LIMIT%, %AMOUNT% (Amount of shops)
 message.occupied-shop-slots=&6Vous avez &c%AMOUNT%/%LIMIT% &6magasin/s.
-
 # Définir un message quand un joueur essaye de vendre un item blacklist.
 message.cannot-sell-item=&cVous ne pouvez pas créer un magasin avec cet item.
-
 # Définir un message quand une mise à jour est disponible.
 # Regex utilisables: %VERSION%
 message.update.update-available=&6&lVersion &c%VERSION% &6de &cShopChest &6est disponible ici.
-
 # Définir le message à obtenir en survolant le message mise à jour disponible.
 message.update.click-to-download=Cliquer pour télécharger.
-
 # Définir le message quand aucune mise à jour n'est disponible.
 message.update.no-update=&6&lPas de mise à jour disponible.
-
 # Définir le message pour la recherche de mise à jour.
 message.update.checking=&6&lRecherche de mise à jour.
-
 # Définir le message si une erreur est survenue pendant la recherche de mise à jour.
 message.update.error=&c&lErreur lors de la recherche de mise à jour.
-
 # Définir le texte dans la première rangée de l'holograme.
 # Regex utilisables: %ITEMNAME%, %AMOUNT%
 message.hologram.format=%AMOUNT% * %ITEMNAME%
-
 # Définir le texte dans la deuxième rangée de l'holograme quand le joueur peut acheter et vendre.
 # Regex utilisables: %BUY-PRICE%, %SELL-PRICE%
 message.hologram.buy-and-sell=Acheter %BUY-PRICE% | %SELL-PRICE% Vendre
-
 # Définir le message dans la deuxième rangée de l'holograme quand le joueur peut seulement acheter.
 # Regex utilisables: %BUY-PRICE%
 message.hologram.only-buy=Acheter %BUY-PRICE%
-
 # Définir le message dans la deuxième rangée de l'holograme quand le joueur peut seulement vendre.
 # Regex utilisables: %SELL-PRICE%
 message.hologram.only-sell=Vendre %SELL-PRICE%
-
 # Définir le message quand un joueur non autorisé essaye de créer un magasin.
 message.noPermission.create=&cVous n'avez pas la permission de créer un magasin.
-
 # Définir le message quand un joueur non autorisé essaye de créer un magasin admin.
 message.noPermission.create-admin=&cVous n'avez pas la permission de créer un magasin admin.
-
 # Définir le message quand un joueur essaye de créer un magasin sur un coffre protégé.
 message.noPermission.create-protected=&cVous n'avez pas la permission de créer un magasin sur un coffre protégé.
-
 # Définir un message quand un joueur non autorisé essaye d'ouvrir le magasin de quelqu'un.
 message.noPermission.open-others=&cVous n'avez pas la permission d'ouvrir ce magasin.
-
 # Définir un message quand un joueur non autorisé essaye d'acheter quelque chose.
 message.noPermission.buy=&cVous n'avez pas la permission d'acheter quelque chose.
-
 # Définir un message quand un joueur non autorisé essaye de vendre quelque chose.
 message.noPermission.sell=&cVous n'avez pas la permission de vendre.
-
-Définir un message quand un joueur non autorisé essaye de supprimer un magasin.
+# Définir un message quand un joueur non autorisé essaye de supprimer un magasin.
 message.noPermission.remove-others=&cVous n'avez pas la permission de supprimer ce magasin.
-
 # Définir un message quand un joueur non autorisé essaye de recharger un magasin.
 message.noPermission.reload=&cVous n'avez pas la permission de recharger ce magasin.
-
 # Définir un message quand un joueur non autorisé essaye de chercher une mise à jour.
 message.noPermission.update=&cVous n'avez pas la permission de rechercher une mise à jour.
-
 # Définir un message quand un joueur non autorisé essaye de voir la limite d'un magasin.
 message.noPermission.limits=&cVous n'avez pas la permission de voir la limite.
-
-Définir un message quand un joueur non autorisé essaye de changer les valeurs.
+# Définir un message quand un joueur non autorisé essaye de changer les valeurs.
 message.noPermission.config=&cVous n'avez pas la permission de changer les valeurs.
-
-# Définir le message de description pour '/shop create' quand vous marquez '/shop'.
-message.commandDescription.create=Créer un magasin.
-
-# Définir le message de description pour '/shop remove' quand vous marquez '/shop'.
-message.commandDescription.remove=Supprimer un magasin.
-
-# Définir le message de description pour '/shop info' quand vous marquez '/shop'.
-message.commandDescription.info=Informations sur un magasin.
-
-# Définir le message de description pour '/shop reload' quand vous marquez '/shop'.
-message.commandDescription.reload=Recharger les magasins.
-
-# Définir le message de description pour '/shop update' quand vous marquez '/shop'.
-message.commandDescription.update=Rechercher des mises à jour.
-
-# Définir le message de description pour '/shop limits' quand vous marquez '/shop'.
-message.commandDescription.limits=Voir la limite de magasin.
-
-# Définir le message de description pour '/shop config' quand vous marquez '/shop'.
-message.commandDescription.config=Changer les valeurs.
-
 # Définir le message qu'obtient un joueur après avoir changé des paramètres.
 # Regex utilisables: %PROPERTY%, %VALUE%
 message.config.set=&6Changement de &a%PROPERTY% &6en &a%VALUE%&6.
-
 # Définir le message qu'obtient un joueur après avoir ajouté une valeur à une liste.
 # Regex utilisables: %PROPERTY%, %VALUE%
 message.config.added=&6Ajout de &a%VALUE% &6à &a%PROPERTY%&6.
-
 # Définir le message qu'obtient un joueur après avoir retiré une valeur à une liste.
 # Regex utilisables: %PROPERTY%, %VALUE%
 message.config.removed=&a%VALUE% retiré &6fde &a%PROPERTY%&6.
 
-# Effect names that will be displayed in the place of %POTION-EFFECT%
+#### Effect names that will be displayed in the place of %POTION-EFFECT%
 effect.absorption=Absorption
 effect.blindness=Cécité
 effect.confusion=Nausée
