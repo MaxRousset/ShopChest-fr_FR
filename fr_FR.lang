@@ -10,26 +10,26 @@ message.vendor-out-of-stock=&cVotre magasin qui vend &6%AMOUNT% x %ITEMNAME% &ce
 message.amount-is-zero=&cLa quantité doit être supérieur à 0.
 
 message.click-chest-to-open-shop=&aCliquez sur un magasin dans les 15 secondes pour l'ouvrir.
-message.buy-price-too-high=&cLe prix d'achat doit être inferieur à %MAX-PRICE%.
-message.sell-price-too-high=&cLe prix de vente doit être inferieur à %MAX-PRICE%.
-message.use-in-creative=&cVous ne pouvez pas utilisé de magasin en créatif.
+message.buy-price-too-high=&cLe prix d'achat doit être inférieur à %MAX-PRICE%.
+message.sell-price-too-high=&cLe prix de vente doit être inférieur à %MAX-PRICE%.
+message.use-in-creative=&cVous ne pouvez pas utiliser de magasin en créatif.
 message.noPermission.buy-here=&cVous n'avez pas la permission d'acheter ici.
 message.noPermission.sell-here=&cVous n'avez pas la permission de vendre ici.
 message.noPermission.remove-admin=&cVous n'avez pas la permission d'enlever un magasin d'admin.
-message.noPermission.extend-others=&cVous n'avez pas la permission d'etendre ce coffre.
-message.noPermission.extend-protected=&cVous n'avez pas la permission d'etendre ce coffre ici.
+message.noPermission.extend-others=&cVous n'avez pas la permission d'agrandir ce coffre.
+message.noPermission.extend-protected=&cVous n'avez pas la permission d'agrandir ce coffre ici.
 
 message.commandDescription.header=&6==== &c/%COMMAND% &6Aide
 message.commandDescription.footer=&6==== Fin
 message.commandDescription.create-admin=&a/%COMMAND% create <amount> <buy-price> <sell-price> [normal|admin] - Créer un magasin.
-message.commandDescription.removeall=&a/%COMMAND% removeall - Enlever tout les magasins d un joueur.
+message.commandDescription.removeall=&a/%COMMAND% removeall - Enlever tout les magasins d'un joueur.
 message.commandDescription.open=&a/%COMMAND% open - Ouvrir un magasin.
 message.commandDescription.create=&a/%COMMAND% create <amount> <buy-price> <sell-price> - Créer un magasin.
 message.commandDescription.remove=&a/%COMMAND% remove - Supprimer un magasin.
 message.commandDescription.info=&a/%COMMAND% info - Informations sur un magasin.
 message.commandDescription.reload=&a/%COMMAND% reload - Recharger les magasins.
 message.commandDescription.update=&a/%COMMAND% update - Rechercher des mises à jour.
-message.commandDescription.limits=&a/%COMMAND% limits - Voir la limite de magasin.
+message.commandDescription.limits=&a/%COMMAND% limits - Voir la limite de magasins.
 message.commandDescription.config=&a/%COMMAND% config - Changer les valeurs.
 
 
